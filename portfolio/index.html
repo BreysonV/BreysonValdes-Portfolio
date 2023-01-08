@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breyson Valdes Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+<header>
+    <a href="#" class="logo"><span>B</span>reyson Design<span>s</span></a>
+    <ul class="navlist">
+        <li><a href="#home">Home</a></li> 
+        <li><a href="#about">About</a></li> 
+        <li><a href="#services">Services</a></li> 
+        <li><a href="#portfolio">Portfolio</a></li> 
+        <li><a href="#contact">Contact</a></li> 
+    </ul>
+    <div class="bx bx-menu" id="menu-icon">
+
+    </div>
+</header>
+<script type= "text/javascript">
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY > 0);
+})
+</script>
+<!--Home secton-->
+<section class="home" id="home">
+    <div class="home-text">
+        <div class="slide">
+            <span class="one">Hello</span>
+            <span class="two">I'm</span>
+        </div>
+        <h1>Breyson</h1>
+        <h3>Front-End <span>Web Developer</span></h3>
+        <p>Web Designer out of college ready to show customers my skills <br>and make them amazed with my designs</p>
+        <div class="button">
+            <a href="./images/Breyson-Valdes-Diploma.pdf" target="_blank" class="btn">Check Diploma</a>
+            <a href="https://github.com/BreysonV/BreysonValdes-Portfolio" target="_blank" class="btn2"><span><i class='bx bxl-github'></i></i></span>Check out my Work</a>
+        </div>
+    </div>
+</section>
+<!--about me secton-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/ABOUT-ME-PIC.jpg">
+    </div>
+    <div class="about-text">
+        <h2>About<span>Me</span></h2>
+        <h4>Aspiring Front-End Web developer!</h4>
+        <p>I have recently graduated from Broward College after getting my Associate's in Software Development.
+           I have been practicing and honing my web design skills and am ready to show what i can do. I am a hardworker 
+           and am always willing to learn new languages and ways to write code </p>
+            <a href="./images/BreysonValdes-Resume.png" class="btn">Read Resume</a>
+    </div>
+</section>
+<!--Services section-->
+<section class= "services" id="services">
+<div class="main-text">
+<p>What Services do i Provide?</p>
+<h2><span>My</span> Services</h2>
+</div>
+<div class= "services-content">
+    <div class="box">
+        <div class="s-icons">
+            <i class='bx bxl-html5'></i>
+        </div>
+        <h3>Creative Web Designs</h3>
+        <p>I can build creative and responsive web pages that will appeal to clients.</p>
+    </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bxs-image'></i>
+            </div>
+            <h3>Photoshop</h3>
+            <p>I am able to modify,change, or create logos and images with my knowledge in Photoshop.</p>
+        </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxl-javascript' ></i>
+                </div>
+                <h3>Javascript</h3>
+                <p>I have a working knowledge of how to use Javascript to create functional web pages and applications</p>
+            </div>
+</div>
+</section>
+<!--portfolio section-->
+<section class="portfolio" id="portfolio">
+    <div class="main-text">
+        <p>Portfolio</p>
+        <h2><span>Latest</span> Projects</h2>
+    </div>
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="./images/RPSGame.png">
+            <div class="layer">
+                <h5>Rock Paper Scissors Game</h5>
+                <p>A simple game Demonstrating DOM Manipulation</p>
+                <a href="./RockPaperScissors_Game/RPSgame.html"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./images/tipcalculator.jpg">
+            <div class="layer">
+                <h5>Tip Calculator</h5>
+                <p>An app that can calculate total cost based on price and tip amount</p>
+                <a href="./TipCalculator/tipcalculator.html"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./images/MovieTrailersIMG.png">
+            <div class="layer">
+                <h5>Movie Trailer Site</h5>
+                <p>A Movie Trailer site made using bootstrap and online APIs</p>
+                <a href="./MovieTrailerSite/MovieTrailer.html"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        </div>
+
+</section>
+<!--contact section-->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact<span> Me</span></h2>
+        <h4>If You Have Any Questions or Concerns</h4>
+        <p>I'm a Front End Web Developer - Creating Responsive and Creative Web pages and applications.</p>
+        <div class="list"> 
+            <li><a href="#">954-297-3918</a></li>
+            <li><a href="#">Breysonvaldes@gmail.com</a></li>
+        </div>
+        <div class="contact-icons">
+            <a href="https://github.com/BreysonV/BreysonValdes-Portfolio" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="name" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email Address" required>
+            <input type="" placeholder="Your Phone Number" required>
+            <textarea name=" " id=" " cols="35" rows="10" placeholder="How can i Help You" required></textarea>
+            <input type="submit" value="Send Message" class="submit" required>
+        </form>
+        </div>
+
+</section>
+<!---footer-->
+<section class="footer">
+    <div class="last-text">
+        <p>Copyright © 2022 by Breyson Valdes</p>
+    </div>
+    <div class="top">
+        <a href="#home"><i class='bx bxs-up-arrow-alt'></i></a>
+    </div>
+</section>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
