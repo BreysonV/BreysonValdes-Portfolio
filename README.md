@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Breyson Valdes</h1>
 <h3 align="center">A Passionate Front End developer from Florida</h3>
 
-- 🌱 I’m currently trying to master **Javascript**
+- 🌱 I’m currently trying to master **Javascript and New Ways To Code**
 
 - 👯 I’m looking to collaborate with **Broward County**
 
