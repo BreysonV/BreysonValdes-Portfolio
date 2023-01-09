@@ -6,7 +6,7 @@
 
 - 👯 I’m looking to collaborate with **Broward County**
 
-- 👨‍💻 All of my projects are available at [breysondesigns.com](breysondesigns.com)
+- 👨‍💻 All of my projects are available at **breysondesigns.com**
 
 - 📫 How to reach me **breysonvaldes@gmail.com**
 
